@@ -1,0 +1,27 @@
+.tabela-main{
+    background-image: url("/assets/background.png");
+    background-size: cover;
+    padding: 10rem 5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    >table {
+        background-color: white;
+        border-radius: .5rem;
+        padding: 1rem;
+        border: 1px solid #000;
+        box-shadow:5px 5px 20px rgba(0, 0, 0, 0.404);
+    }
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 2rem;
+
+    @media (max-width: 768px) {
+        padding: 1rem;
+        font-size: .8rem;
+    }
+}
